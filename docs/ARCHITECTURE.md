@@ -123,3 +123,32 @@ Secrets never appear in:
 - Kubernetes manifests (in Git)
 - Container environment variables (in Docker layer)
 - CI/CD logs
+
+---
+
+## References
+
+### Terraform
+- [Terraform Azure provider docs (azurerm)](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs)
+- [Terraform docs — modules](https://developer.hashicorp.com/terraform/language/modules)
+- [YouTube: Terraform on Azure complete tutorial (TechWorld with Nana, 3h)](https://www.youtube.com/watch?v=V53AHWun17s)
+- [YouTube: Terraform best practices (HashiConf 2023)](https://www.youtube.com/watch?v=gxPykhPxRW0)
+
+### Azure Hub-Spoke Networking
+- [Azure docs — Hub-spoke network topology](https://learn.microsoft.com/en-us/azure/architecture/networking/architecture/hub-spoke)
+- [Azure docs — Private endpoints](https://learn.microsoft.com/en-us/azure/private-link/private-endpoint-overview)
+- [Azure docs — Azure Firewall](https://learn.microsoft.com/en-us/azure/firewall/overview)
+
+### Azure Key Vault
+- [Azure Key Vault docs](https://learn.microsoft.com/en-us/azure/key-vault/general/overview)
+- [AKS Key Vault CSI Driver](https://learn.microsoft.com/en-us/azure/aks/csi-secrets-store-driver)
+
+### Compliance Regulations
+- [BAIT — BaFin IT-Aufsichtsanforderungen (full text, German)](https://www.bafin.de/SharedDocs/Veroeffentlichungen/DE/Rundschreiben/2021/rs_10_2021_BAIT.html)
+- [DORA — Digital Operational Resilience Act (EUR-Lex)](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32022R2554)
+- [Azure compliance for financial services (Microsoft)](https://learn.microsoft.com/en-us/azure/compliance/offerings/offering-bafin-germany)
+- [YouTube: DORA compliance explained (FS-ISAC, 30 min)](https://www.youtube.com/watch?v=W_5RgBBT8RI)
+
+### Azure Landing Zone Reference Architecture
+- [Azure Landing Zone docs (Cloud Adoption Framework)](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/landing-zone/)
+- [Azure Architecture Center — financial services](https://learn.microsoft.com/en-us/azure/architecture/industries/finance)
